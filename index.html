@@ -3,57 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Portfolio</title>
 </head>
 <body>
     <main>
-        <div class="desktop">
-            <section>
+        <div class="desktop container">
+                        <section class="row justify-content-center">
             <!-- browser -->
-                <div class="browser" id="browser-home">
-                    <!-- title-bar -->
-                    <header class="title-bar">
-                        <div class="dots">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div class="browser mx-auto" id="browser-home">
+                        <!-- title-bar -->
+                        <header class="title-bar">
+                            <div class="dots">
 
-                            <!-- title-bar name -->
-                            <span class="title-name">$ /home</span>
+                                <!-- title-bar name -->
+                                <span class="title-name">$ /home</span>
+                            </div>
+                        </header>
+
+                        <!-- page -->
+                        <div class="page">
+                            <h1>hi! i'm <span class="name">mameaw</span></h1>
+                            <p>please click on the icon below to see more information about me and my work</p>
+
+                            <!-- content -->
+                            <nav class="content">
+                                <!-- about me -->
+                                <a class="content-item" href="#browser-about">
+                                    <img src="media/icon_about.webp" alt="">
+                                    <p>about me - ข้อมูลเกี่ยวกับฉัน</p>
+                                </a>
+                                <!-- link -->
+                                <a class="content-item" href="#browser-what-i-built">
+                                    <img src="media/icon_links.webp" alt="">
+                                    <p>what i built - สร้างเว็ปอะไร</p>
+                                </a>
+                                <!-- work -->
+                                <a class="content-item" href="#browser-how-i-built-it">
+                                    <img src="media/icon_work.webp" alt="">
+                                    <p>how i built it - วิธีการสร้างเว็ป</p>
+                                </a>
+                                <!-- faq -->
+                                <a class="content-item" href="#browser-reflection">
+                                    <img src="media/icon_faq.webp" alt="">
+                                    <p>reflection - ปัญหาที่พบบ่อย</p>
+                                </a>
+                                <!-- contact -->
+                                <a class="content-item" href="#browser-contact">
+                                    <img src="media/icon_contact.webp" alt="">
+                                    <p>contact - ข้อมูลติดต่อ</p>
+                                </a>
+                            </nav>
                         </div>
-                    </header>
-
-                    <!-- page -->
-                    <div class="page">
-                        <h1>hi! i'm <span class="name">mameaw</span></h1>
-                        <p>please click on the icon below to see more information about me and my work</p>
-
-                        <!-- content -->
-                        <nav class="content">
-                            <!-- about me -->
-                            <a class="content-item" href="#browser-about">
-                                <img src="media/icon_about.webp" alt="">
-                                <p>about me - ข้อมูลเกี่ยวกับฉัน</p>
-                            </a>
-                            <!-- link -->
-                            <a class="content-item" href="#browser-what-i-built">
-                                <img src="media/icon_links.webp" alt="">
-                                <p>what i built - สร้างเว็ปอะไร</p>
-                            </a>
-                            <!-- work -->
-                            <a class="content-item" href="#browser-how-i-built-it">
-                                <img src="media/icon_work.webp" alt="">
-                                <p>how i built it - วิธีการสร้างเว็ป</p>
-                            </a>
-                            <!-- faq -->
-                            <a class="content-item" href="#browser-reflection">
-                                <img src="media/icon_faq.webp" alt="">
-                                <p>reflection - ปัญหาที่พบบ่อย</p>
-                            </a>
-                            <!-- contact -->
-                            <a class="content-item" href="#browser-contact">
-                                <img src="media/icon_contact.webp" alt="">
-                                <p>contact - ข้อมูลติดต่อ</p>
-                            </a>
-                        </nav>
                     </div>
                 </div>
             </section>

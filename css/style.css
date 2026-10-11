@@ -18,15 +18,17 @@ body {
     background-color:antiquewhite
 }
 
+main {
+    width: 100%;
+}
+
 .browser {
     border: 1px solid black;
     border-radius: 20px;
-    margin: 20px;
+    margin: 20px 0;
     box-shadow: 10px 10px 10px var(--frame);
     overflow: hidden;
     background-color: white;
-    max-width: 500px;   
-    width: 90%;         
 }
 
 
@@ -160,6 +162,9 @@ span.highlight-red {
     overflow-y: auto;
     z-index: 9999;
     display: none;
+    width: 90%;
+    max-width: 500px;
+    margin: 0;
 }
 
 /* ปิด hash id  */
@@ -199,8 +204,7 @@ span.highlight-red {
 /* media query */
 @media (max-width: 480px) {
     .browser {
-        width: 95%;
-        margin: 10px auto;
+        margin: 10px 0;
     }
 
     .page {
