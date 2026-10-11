@@ -223,3 +223,19 @@ span.highlight-red {
         font-size: 14px;
     }
 }
+
+/* portfolio popup */
+#browser-portfolio {
+    max-width: 900px;
+}
+
+.portfolio-item {
+    margin: 0;
+    text-align: left;
+    height: 100%;
+}
+
+.portfolio-item h2 {
+    font-size: 1.25rem;
+    color: var(--brown);
+}
