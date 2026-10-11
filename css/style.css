@@ -172,6 +172,10 @@ span.highlight-red {
     display: block;
 }
 
+#browser-about {
+    max-width: 700px;
+}
+
 /* about me popup */
 .profile-img {
     width: 100px;
